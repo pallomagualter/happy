@@ -11,8 +11,8 @@ export default function App() {
           provider={PROVIDER_GOOGLE}
           style={styles.map} 
           initialRegion={{
-          latitude: -5.0811659,
-          longitude: -42.7866835,
+          latitude: -5.0811266,
+          longitude: -42.784513,
           latitudeDelta: 0.008,
           longitudeDelta: 0.008,
         }}
@@ -20,8 +20,8 @@ export default function App() {
           <Marker 
             icon={mapMarker}
             coordinate={{
-              latitude: -5.0811659,
-              longitude: -42.7866835,
+              latitude: -5.0811266,
+              longitude: -42.784513,
             }}
           />
         </MapView>
